@@ -56,7 +56,7 @@ More examples (rate-limit demo, error paths) in `samples/curl-examples.md`.
 - Keys are **revoked, never deleted**, so the usage audit trail survives.
 - Keys can be scoped to a single service or all services, each with its own req/min limit.
 
-## Rate limiting (interview talking point)
+## Rate limiting
 
 Token bucket, implemented as **one atomic Postgres UPSERT**:
 
